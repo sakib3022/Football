@@ -356,4 +356,168 @@ a {
   css design end here
   --------------------------- */
   
-  
+  /* ------------------
+media query start here
+--------------------- */
+
+@media (max-width: 1400px) {
+  .flexible-container {
+    width: 85%;
+  }
+  .final-match h3 {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .flexible-container {
+    width: 88%;
+  }
+  .banner-text h1 {
+    font-size: 50px;
+  }
+  .highlight-text h1 {
+    font-size: 35px;
+  }
+  .player-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .head {
+    font-size: 40px;
+  }
+  .highlight-text {
+    margin-bottom: 50px;
+  }
+  .highlight-main {
+    grid-template-columns: 1fr;
+  }
+  .final {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .conatact-main {
+    grid-template-columns: 1fr;
+  }
+  .footer-main {
+    width: 80%;
+  }
+}
+
+
+
+@media (max-width: 830px) {
+  .flexible-container {
+    width: 95%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .header-main {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .header-menu > ul {
+    justify-content: center;
+  }
+  .header-login {
+    text-align: center;
+    margin-top: 24px;
+  }
+  .banner-main {
+    grid-template-columns: 1fr;
+  }
+  .banner-text h1 {
+    font-size: 35px;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-image {
+    margin-top: 100px;
+  }
+  .player-main {
+    grid-template-columns: 1fr;
+  }
+  .final {
+    grid-template-columns: 1fr;
+  }
+  .final-match iframe {
+    height: 415px;
+  }
+  .footer-main {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .header-menu > ul > li > a {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .header-login > .button-link {
+    padding: 10px 20px;
+  }
+  .banner-text h1 {
+    font-size: 24px;
+  }
+  .header-login > .button-link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+  .button-link {
+    padding: 9px 22px;
+    font-size: 16px;
+  }
+  .head {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .player-name {
+    font-size: 25px;
+  }
+  .highlight-text h1 {
+    font-size: 21px;
+  }
+  .final-match iframe {
+    height: 265px;
+  }
+  .contact-address p {
+    font-size: 18px;
+  }
+  .contact-address p b {
+    font-size: 20px;
+  }
+  .footer-section {
+    padding: 0px 0 100px;
+  }
+  .footer-text p {
+    font-size: 14px;
+  }
+  .footer-image img {
+    width: 206px;
+  }
+  .footer-social ul li a {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    margin: 0 8px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .final-match iframe {
+    height: 190px;
+  }
+}
+
+/* --------
+media query ends here
+---------------------
+ */
